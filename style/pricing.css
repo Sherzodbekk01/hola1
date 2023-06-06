@@ -69,8 +69,19 @@
         text-align: center;
     }
 }
+
 @media screen and (max-width:320px) {
     .public_h2 {
         font-size: 24px;
+    }
+
+     .study .public_p {
+        font-size: 1.3rem;
+        line-height: 20px;
+    }
+
+    .study .public_h3 {
+        font-size: 18px;
+        line-height: 28px;
     }
 }
