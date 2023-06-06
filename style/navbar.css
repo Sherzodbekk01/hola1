@@ -43,20 +43,20 @@ label{
     .modal{
         position: absolute;
         top: -100%;
-        right: 2.5rem;
-        background-color: #fff;
-        width: 30%;
-        height: 30vh;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 100%;
+        height: 100vh;
         z-index: 10;
         display: flex;
-        justify-content: right;
+        justify-content: center;
         align-items: center;
         transition: all .5s linear;
     }
 
     .modal_content{
         font-size: 1.9rem;
-        /* background-color: mediumseagreen; */
+        background-color: mediumseagreen; 
         padding: 2rem;
         border-radius: 2rem;
     }
